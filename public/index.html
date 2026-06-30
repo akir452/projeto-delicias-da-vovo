@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>competições</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="assets/img/icon.png" type="">
+</head>
+
+<body>
+
+
+    <header>
+        <h1>Doces da Vovó</h1>
+        <nav>
+            <ul>
+                <li><a href="#banner">Home</a></li>
+                <li><a href="#produtos">Sobre</a></li>
+                <li><a href="#contatos">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <main>
+        <section id="banner">
+            <h2>Onde surgiu a "Doces da Vovó"</h2>
+
+            <div id="conteudo">
+                <artcle class="texto-principal">
+
+                    <p> A "Doces da Vovó" surgiu da paixão de uma avó por criar doces deliciosos para sua família.
+                        Com o tempo, seus doces se tornaram famosos na comunidade, e ela decidiu compartilhar seu
+                        segredo
+                        com o mundo.
+                    </p>
+                </artcle>
+
+                <figure id="imagem-banner">
+                    <img src="./assets/img/paofrances.png"
+                        alt="Imagem do site">
+                </figure>
+
+            </div>
+        </section>
+
+        <section id=produtos>
+            <h2> Produtos</h2>
+
+            <article id="texto-produtos">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Necessitatibus dignissimos consectetur
+                    facere voluptas culpa possimus voluptatum sint distinctio, ab nesciunt reiciendis est ipsum
+                    suscipit odio nobis impedit ipsam laboriosam voluptatibus.
+                </p>
+            </article>
+
+            <figure id="galeria-produtos">
+                <img class="fotos" src="./assets/img/pão.png" alt="pao">
+                <img class="fotos" src="./assets/img/pão.png" alt="padaria">
+                <img class="fotos" src="./assets/img/pão.png" alt="doces">
+            </figure>
+
+        </section>
+
+        <section id="formulario">
+            <h2>Opine aqui!</h2>
+
+            <form action="/enviar" method="POST" id="form">
+                <label for="name">Nome</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="exemploemail@email.com" required>
+
+                <label for="mensagem"> Mensagem</label>
+                <input type="text" id="mensagem" name="mensagem" placeholder="deixe sua mensagem" required>
+
+                <button type="submit">Enviar</button>
+
+            </form>
+        </section>
+    </main>
+
+
+    <button id="botao"><a href="https://br.pinterest.com/pin/936256210032486896/" target="_blank">Fazer Pedido</a></button>
+    <footer id = "contatos"> 
+        <p>&copy; 2023 Competições Senac. Todos os direitos reservados.</p>
+    </footer>
+
+ <script src="script.js"></script>
+</body>
+</html>

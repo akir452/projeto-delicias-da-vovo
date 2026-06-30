@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+
+header nav {
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 5.5rem;
+    text-align:left;
+    padding-left: 2rem;
+    color: #5C3A21;
+    font-family: 'Cormorant Garamond';
+}
+
+header ul {
+   display: flex; 
+    justify-content: flex-end; 
+    list-style: none;
+    padding-left:2rem ;
+    gap: 2rem;
+}
+
+header ul li a:hover{
+    color: #5c3a2180;
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 4.0rem;
+}
+
+header a {
+    color: #5C3A21;
+    text-decoration: none;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: Arial, sans-serif;
+    background-color: #faf7f3;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+#banner {
+    width: 100%;
+    margin-top: 1.0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+#banner h2{
+    font-size: 3.3rem;
+    right: 2.0rem;
+}
+
+#conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.texto-principal{
+    font-size: 2rem;
+}
+
+#imagem-banner img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 1.2rem;
+}
+
+#produtos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    width: 100%;
+}
+#produtos h2{
+    text-align: center;
+}
+
+
+
+#texto-produtos p {
+
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+#galeria-produtos {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.fotos {
+    max-width: 30%;
+    height: auto;
+    border-radius: 1.2rem;
+    transition: 0.3s;
+}
+
+.fotos:hover {
+    transform: scale(1.03);
+}
+
+a{
+    text-decoration: none;
+}
+
+#formulario h2{
+    color: #9e5e31;
+    font-size: 3.2rem;
+    
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    gap: 1rem;
+}
+
+#form input{
+    padding: 0.8rem;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.4rem;
+}
+
+#form label{
+    font-weight: bold;
+    margin-top: 0.5rem;
+
+}
+#form button{
+    padding: 0.1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    margin-top: 0.15rem;
+}
+
+#form button :hover {
+    background-color: #0056b3;
+}
+
+footer {
+    font-size: 2.2rem;
+    text-align: center;
+    color: #5C3A21;
+}
+
+#botao {
+    background-color: antiquewhite;
+    color: #5C3A21;
+    padding: 1.2rem 2.4rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: fixed;
+    bottom: 2rem;
+    right: 1rem;
+    z-index: 9999;
+
+}
+
+#botao:active a{
+    color: #130c07;
+}
