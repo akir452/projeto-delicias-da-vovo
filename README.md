@@ -6,14 +6,14 @@ Um site institucional para  a padaria "Delicias da Vovó", que abrange o seu pub
 clientes
 
 ---
-## funcionalidades 
+## Funcionalidades 
 - Demostração de produtos
 - preenchimento de formulario
 - navegação entre as abas
 
 ---
 
-## tecnologias
+## Tecnologias
 
 ---
 
@@ -23,7 +23,7 @@ clientes
 - Node.js
 
 ---
-## segurança
+## Segurança
 
 ---
 Para garantir a validação e integridade dos dados enviados pelo usuario para o back-end o sistema esta realizando as seguintes normas de segurança:
